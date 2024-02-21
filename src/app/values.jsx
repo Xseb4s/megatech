@@ -30,7 +30,7 @@ const Values = () => {
               }}
             className="flex flex-col items-center mx-8">
               <figure className="relative">
-                <img src="/assets/security.png" alt="Seguridad" className="h-52 w-52"/>
+                <img src="/megatech/assets/security.png" alt="Seguridad" className="h-52 w-52"/>
                 <span className="absolute text-4xl" style={{top:"35%", left:"45%"}}>1</span>
               </figure>
               <div className="border-2 p-4 rounded-lg mt-4 border-orange-400 bg-orange-400/10">
@@ -56,7 +56,7 @@ const Values = () => {
               }}
             className="flex flex-col items-center mx-8">
               <figure className="relative">
-                <img src="/assets/innovation.png" alt="Innovación" className="h-52 w-52"/>
+                <img src="/megatech/assets/innovation.png" alt="Innovación" className="h-52 w-52"/>
                 <span className="absolute text-4xl" style={{top:"35%", left:"45%"}}>2</span>
               </figure>
               <div className="border-2 p-4 rounded-lg mt-4 border-yellow-300 bg-yellow-300/10">
@@ -84,7 +84,7 @@ const Values = () => {
               }}
             className="flex flex-col items-center mx-8">
               <figure className="relative">
-                <img src="/assets/service.png" alt="Servicio" className="h-52 w-52"/>
+                <img src="/megatech/assets/service.png" alt="Servicio" className="h-52 w-52"/>
                 <span className="absolute text-4xl" style={{top:"35%", left:"45%"}}>3</span>
               </figure>
               <div className="border-2 p-4 rounded-lg mt-4 border-green-400 bg-green-400/10">
@@ -112,7 +112,7 @@ const Values = () => {
               }}
             className="flex flex-col items-center mx-8">
               <figure className="relative">
-                <img src="/assets/team.png" alt="Trabajo en equipo" className="h-52 w-52"/>
+                <img src="/megatech/assets/team.png" alt="Trabajo en equipo" className="h-52 w-52"/>
                 <span className="absolute text-4xl" style={{top:"35%", left:"45%"}}>4</span>
               </figure>
               <div className="border-2 p-4 rounded-lg mt-4 border-indigo-600 bg-indigo-600/10">
@@ -140,7 +140,7 @@ const Values = () => {
             }}
             className="flex flex-col items-center mx-8">
               <figure className="relative">
-                <img src="/assets/empathy.png" alt="Empatía" className="h-52 w-52"/>
+                <img src="/megatech/assets/empathy.png" alt="Empatía" className="h-52 w-52"/>
                 <span className="absolute text-4xl" style={{top:"35%", left:"45%"}}>5</span>
               </figure>
               <div className="border-2 p-4 rounded-lg mt-4 border-blue-300 bg-blue-300/10">

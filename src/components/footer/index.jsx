@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
             </h2>
             <figure className="flex flex-col items-center max-sm:pb-28">
-                <img src="/megatech.webp" alt="Logo" />
+                <img src="/megatech/megatech.webp" alt="Logo" />
                 <figcaption className="spacebold">
                     MEGA<span className="text-gray-500">TECH GRUP</span> 
                 </figcaption>

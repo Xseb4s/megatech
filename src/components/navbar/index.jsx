@@ -35,7 +35,7 @@ const Navbar = () => {
     <header>
         <nav className="flex items-center justify-between fixed z-30 backdrop-blur-sm bg-black/40 w-full">
             <figure className="pl-5 p-3">
-                <img src="/megatech.webp" alt="Mega Tech Grup"  className="h-10"/>
+                <img src="/megatech/megatech.webp" alt="Mega Tech Grup"  className="h-10"/>
             </figure>
             <ul className="hidden lg:flex flex-row gap-4 pr-5 text-white">
                 {list()}

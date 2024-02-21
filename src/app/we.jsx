@@ -13,7 +13,7 @@ const We = () => {
           animate={{ opacity: 1 }}
           className="transition-all duration-900 ease-in-out delay-500">
         <figure className="w-full relative z-0 overflow-hidden brightness-50 saturate-150 h-[110vh]">
-            <img src="/banner.webp" alt="Nosotros" className="absolute h-full w-full object-cover"/>
+            <img src="/megatech/banner.webp" alt="Nosotros" className="absolute h-full w-full object-cover"/>
             <motion.span initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }} transition={{
                 duration: 1,}} className="absolute bottom-32 lg:bottom-44 left-[38%] lg:left-[47.5%] z-50 text-white ">Conocenos</motion.span>
@@ -88,7 +88,7 @@ const We = () => {
             className="flex flex-col max-sm:items-center lg:flex-row lg:my-10 xl:my-36 justify-center gap-20"
             >
                 <figure className="img-size">
-                    <img src="/technology.webp" alt="Tecnología" className="h-full w-full rounded-3xl object-cover" style={{ objectPosition: '90% 20%' }} />
+                    <img src="/megatech/megatech/technology.webp" alt="Tecnología" className="h-full w-full rounded-3xl object-cover" style={{ objectPosition: '90% 20%' }} />
                 </figure>
                 <motion.div 
                     initial={{ opacity: 0, scale: 0.5 }}
