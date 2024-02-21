@@ -88,7 +88,7 @@ const We = () => {
             className="flex flex-col max-sm:items-center lg:flex-row lg:my-10 xl:my-36 justify-center gap-20"
             >
                 <figure className="img-size">
-                    <img src="/megatech/megatech/technology.webp" alt="Tecnología" className="h-full w-full rounded-3xl object-cover" style={{ objectPosition: '90% 20%' }} />
+                    <img src="/megatech/technology.webp" alt="Tecnología" className="h-full w-full rounded-3xl object-cover" style={{ objectPosition: '90% 20%' }} />
                 </figure>
                 <motion.div 
                     initial={{ opacity: 0, scale: 0.5 }}
