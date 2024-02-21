@@ -1,0 +1,38 @@
+[
+    { 
+        "title":"¿Cuántos NIT puedo tener registrados en el sistema?",
+        "desc":"No hay limite de NIT que pueda registrar con nosotros en el sistema, si usted cuenta con mas de un NIT podrá solicitarnos el ingreso de ellos al sistema, permitiendo bajo un mismo usuario tener control de todas sus razones sociales y su base de datos debidamente separada por el NIT correspondiente. "
+    },
+    {
+        "title":"¿Cuántos usuarios puedo ingresar al sistema?",
+        "desc":"No existe un límite de usuarios para ingresar al sistema, MEGATECH esta diseñado para soportar una base de datos extensa, la cual le permitirá realizar ingresos hasta por mas de 1.000 usuarios sin inconvenientes."
+    },
+    {
+        "title":"¿Puedo ingresar una base de datos masiva?",
+        "desc":"Efectivamente, MEGATECH permite que pueda realizar una carga masiva de usuarios, para realizar este proceso, primero deberá diligenciar la estructura de Excel otorgada por su asesor o descargarla directamente del sistema, digitar la información de cada uno de los usuarios con cada uno de los ítems que allí solicita.  Tener en cuenta, que la información que se digite en dicho archivo debe respetar las políticas y validaciones que se solicitan para que no generar ningún error al momento de subir la información al sistema, además, recuerde que dicha información será la que se usara para liquidar las planillas, por ello es muy importante ingresar toda la información correcta."
+    },
+    {
+        "title":"¿Puedo eliminar un usuario después de ingresarlo al sistema?",
+        "desc":"No es posible eliminar un usuario del sistema una vez lo ingrese, por políticas de tratamiento de datos, sin embargo, si podrá inactivarlo, lo que significa que dicho usuario no registrara mas pendiente por pago (tener en cuenta que INACTIVAR un usuario no significa RETIRARLO, por ello sugerimos hacer uso de esta opción solo en casos específicos)."
+    },
+    {
+        "title":"¿Cuántos comprobantes de pago puedo descargar?",
+        "desc":"Podrá descargar la cantidad de comprobantes de pago por usuario o empresariales que desee, teniendo en cuanta que solo el primer comprobante de pago será el original, por ende, a partir de la segunda descarga aparecerá como copia, tener en cuanta que solo se podrá registrar una novedad de pago por mes."
+    },
+    {
+        "title":"¿El sistema me deja eliminar comprobantes de pago?",
+        "desc":"Si, usted podrá eliminar una factura masiva o individual si así lo desea, tener en cuenta que esta opción solo estará habilitada hasta que relacione la planilla en el sistema, si llega a tener algún inconveniente con esta opción, por favor contactarse con su asesor. "
+    },
+    {
+        "title":"¿Puedo hacer pagos masivos?",
+        "desc":"En efecto, podrá realizar pagos masivos por medio de pagos empresariales o por asesor, el cual este definido previamente al momento de ingresar la información del cliente al sistema."
+    },
+    {
+        "title":"¿Cuántas planillas puedo generar al mes?",
+        "desc":"MAGATECH no tiene número límite de archivos planos por descargar, en este caso, usted podrá generar la cantidad de archivos planos que desee para poder liquidar sus planillas en el operador de pagos.  "
+    },
+    {
+        "title":"¿Se puede generar un archivo Excel con toda la información que tengo en el sistema?",
+        "desc":"Si, recuerde que su base de datos siempre estará disponible para que usted pueda acceder desde cualquier parte del mundo, esto le permitirá también generar descargas en archivó Excel en cada uno de las opciones que le ofrece el sistema protegiendo sus datos."
+    }
+]

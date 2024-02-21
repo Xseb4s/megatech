@@ -1,0 +1,8 @@
+[
+    { "title":"Nosotros", "href":"#nosotros", "color":"rgb(239, 68,68)" },
+    { "title":"Servicios", "href":"#servicios", "color":"rgb(251, 146, 60)" },
+    { "title":"Valores", "href":"#valores", "color":"rgb(253, 224, 71)" },
+    { "title":"FAQ", "href":"#faq", "color":"rgb(74, 222, 128)" },
+    { "title":"Políticas", "href":"#politicas", "color":"rgb(79, 70, 229)" },
+    { "title":"Contacto", "href":"#contacto", "color":"rgb(147, 197, 253)" }
+]
