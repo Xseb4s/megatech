@@ -113,7 +113,7 @@ const Circuit = () => {
 
 	return (
 		<canvas
-			ref={canvasRef} className="bg-white overflow-hidden absolute top-0 left-0 w-full h-full -z-0"
+			ref={canvasRef} className="bg-white overflow-hidden absolute top-0 left-0 w-full h-full -z-0 opacity-35"
 		/>
 	);
 };

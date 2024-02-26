@@ -13,12 +13,17 @@ const We = () => {
             animate={{ opacity: 1 }}
             className="transition-all duration-900 ease-in-out delay-500 relative"
         >
-        <figure className="w-full relative z-0 overflow-hidden brightness-[35%] saturate-150 h-[110vh]">
-            <img src="/megatech/banner.webp" alt="Nosotros" className="absolute h-full w-full object-cover"/>
-        </figure>
-        <motion.span initial={{ opacity: 0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1 }} transition={{
-                duration: 1,}} className="absolute bottom-32 lg:bottom-44 left-[38%] lg:left-[47.5%] z-50 text-white ">Conocenos</motion.span>
+            <figure className="w-full relative z-0 overflow-hidden brightness-[35%] saturate-150 h-[110vh]">
+                <img src="/megatech/banner.webp" alt="Nosotros" className="absolute h-full w-full object-cover"/>
+            </figure>
+            <motion.span 
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }} transition={{
+            duration: 1,}} 
+            className="absolute bottom-28 lg:bottom-40 xl:bottom-44 left-[37%] lg:left-[46%] xl:left-[47.5%] z-50 text-white "
+            >
+                Conocenos
+            </motion.span>
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }} transition={{
@@ -26,7 +31,7 @@ const We = () => {
                 delay: 0.1,
                 ease: [0, 0.71, 0.2, 1.01]
             }}
-            className="absolute bottom-16 lg:bottom-20 xl:bottom-28 left-[45%] lg:left-[50%] xl:left-[49%] z-50"
+            className="absolute bottom-16 lg:bottom-20 xl:bottom-28 left-[45%] lg:left-[48.5%] xl:left-[49%] z-50"
             >
                 <Arrow>
                     <ScrollLink href="#definicion">
@@ -36,7 +41,7 @@ const We = () => {
             </motion.div>
         </motion.div>
 
-        <article className="my-36 flex flex-col justify-center items-center absolute top-0 left-0 lg:left-[8%] xl:top-[0%] xl:left-[2%] text-white">
+        <article className="my-36 flex flex-col justify-center items-center absolute lg:mt-20 top-0 left-0 lg:left-[6%] xl:top-[0%] xl:left-[2%] text-white">
 
                 <figure className="w-72 h-36">
                     <motion.a initial={{ opacity: 0, scale: 0.5 }}
@@ -65,7 +70,7 @@ const We = () => {
                 duration: 0.8,
                 delay: 0.4,
                 ease: [0, 0.71, 0.2, 1.01]
-            }}  className="w-1/3 text-md lg:text-2xl my-14 lg:my-20"
+            }}  className="w-1/3 text-sm lg:text-2xl my-6 lg:my-10 xl:my-20"
             >
                 ¿Quienes somos?
             </motion.span>

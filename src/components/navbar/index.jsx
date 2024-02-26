@@ -46,7 +46,7 @@ const Navbar = () => {
                 </ul>
                 <FaBars className="text-white w-10 h-10 relative z-50 pr-5 sm:hidden" onClick={() => setIsOpen(!isOpen)}/>
                 <motion.ul
-                    className="absolute backdrop-blur-md right-0 top-12 bg-black/50 rounded-lg p-2 z-50 border text-white gap-3 flex flex-col"
+                    className="absolute backdrop-blur-md right-0 top-12 bg-black/50 rounded-lg p-2 border text-white gap-3 flex flex-col z-50"
                     initial={{ y: "-300px" }}
                     animate={ulControls}
                 >

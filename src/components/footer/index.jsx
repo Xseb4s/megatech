@@ -7,7 +7,7 @@ const Footer = () => {
 return (
     <footer className="bg-black text-white flex flex-col relative">
         <Circuit/>
-        <div className="mb-16 mt-28 max-sm:px-4 lg:mx-10 xl:mx-36 flex flex-col-reverse lg:flex-row justify-between relative z-50">
+        <div className="mb-16 mt-28 max-sm:px-4 lg:mx-10 xl:mx-36 flex flex-col-reverse lg:flex-row justify-between relative z-10">
             <h2 className="flex flex-col gap-4">
                 <h3 className="font-semibold text-lg">
                     Contactanos
