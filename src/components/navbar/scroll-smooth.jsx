@@ -10,7 +10,6 @@ const ScrollLink = ({ href, children }) => {
     if (target) {
     target.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-    
   };
 
   return (

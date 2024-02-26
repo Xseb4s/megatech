@@ -101,14 +101,16 @@ const Policies = () => {
                 }}>
                     <p>Las partes exponen que las negociaciones llevadas a cabo (o el proyecto a desarrollar en conjunto) entre el titular de la información descrita a continuación y el receptor de la misma, han involucrado o involucrarán divulgación escrita o verbal y comunicación a miembros de su equipo de trabajo, de documentos propios o controlados por alguno de los mencionados anteriormente, la que puede incluir, listas de clientes, información personal o empresarial y otros datos en forma oral o escrita. relacionada con el proceso, MEGATECH se compromete a efectuar una adecuada custodia y reserva de la información y gestión -es decir tratamiento- de los datos suministrados por la empresa al interior de las redes y bases de datos (físicas, verbales y/o electrónicas) en donde se realice su recepción y tratamiento en general.</p>
                     <span className="text-gray-400">
-                        <a target="_blank" href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981">Ley de Protección de Datos Personales - Ley 1581 de 2012.</a>
+                        <a target="_blank" href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981" className="underline" aria-label="Este link te lleva a la pagina de Ley de Protección de Datos Personales">
+                            Ley de Protección de Datos Personales - Ley 1581 de 2012.
+                        </a>
                     </span>
                 </motion.div>
             </motion.div>
         </div>
     </section>
     </>
-  )
+    )
 }
 
 export default Policies

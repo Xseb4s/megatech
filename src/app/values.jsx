@@ -28,11 +28,10 @@ const Values = () => {
                   restDelta: 0.001
                 }
               }}
-            className="flex flex-col items-center mx-8">
-              <figure className="relative">
-                <img src="/megatech/assets/security.png" alt="Seguridad" className="h-52 w-52"/>
+            className="flex flex-col items-center mx-8 contrast-50 hover:contrast-100 transition transition-duration-300">
+              <div className="relative h-36 w-36 border-8 border-orange-400 rounded-full ">
                 <span className="absolute text-4xl" style={{top:"35%", left:"45%"}}>1</span>
-              </figure>
+              </div>
               <div className="border-2 p-4 rounded-lg mt-4 border-orange-400 bg-orange-400/10">
                 <h2 className="font-semibold text-xl text-center mb-4">Seguridad</h2>
                 <p className="text-sm lg:text-sm lg:text-md border-t-2  border-orange-400 w-52 pt-4">Garantizar la protección de la información es nuestro principal pilar, de esta forma hemos logrado generar un ambiente de confianza y credibilidad a nivel nacional.</p>
@@ -54,11 +53,10 @@ const Values = () => {
                   restDelta: 0.001
                 }
               }}
-            className="flex flex-col items-center mx-8">
-              <figure className="relative">
-                <img src="/megatech/assets/innovation.png" alt="Innovación" className="h-52 w-52"/>
-                <span className="absolute text-4xl" style={{top:"35%", left:"45%"}}>2</span>
-              </figure>
+            className="flex flex-col items-center mx-8 contrast-50 hover:contrast-100 transition transition-duration-300">
+              <div className="relative h-36 w-36 border-8 border-yellow-300 rounded-full">
+                <span className="absolute text-4xl" style={{top:"35%", left:"40%"}}>2</span>
+              </div>
               <div className="border-2 p-4 rounded-lg mt-4 border-yellow-300 bg-yellow-300/10">
                 <h2 className="font-semibold text-xl text-center mb-4">Innovaci&oacute;n</h2>
                 <p className="text-sm lg:text-md border-t-2 border-yellow-300 w-52 pt-4">
@@ -82,11 +80,10 @@ const Values = () => {
                   restDelta: 0.001
                 }
               }}
-            className="flex flex-col items-center mx-8">
-              <figure className="relative">
-                <img src="/megatech/assets/service.png" alt="Servicio" className="h-52 w-52"/>
-                <span className="absolute text-4xl" style={{top:"35%", left:"45%"}}>3</span>
-              </figure>
+            className="flex flex-col items-center mx-8 contrast-50 hover:contrast-100 transition transition-duration-300">
+              <div className="relative w-36 h-36 border-8 border-green-400 rounded-full">
+                <span className="absolute text-4xl" style={{top:"35%", left:"40%"}}>3</span>
+              </div>
               <div className="border-2 p-4 rounded-lg mt-4 border-green-400 bg-green-400/10">
                 <h2 className="font-semibold text-xl text-center mb-4">Servicio</h2>
                 <p className="text-sm lg:text-md border-t-2 w-52 border-green-400 pt-4">
@@ -110,11 +107,10 @@ const Values = () => {
                   restDelta: 0.001
                 }
               }}
-            className="flex flex-col items-center mx-8">
-              <figure className="relative">
-                <img src="/megatech/assets/team.png" alt="Trabajo en equipo" className="h-52 w-52"/>
-                <span className="absolute text-4xl" style={{top:"35%", left:"45%"}}>4</span>
-              </figure>
+            className="flex flex-col items-center mx-8 contrast-50 hover:contrast-100 transition transition-duration-300">
+              <div className="relative h-36 w-36 border-8 border-indigo-600 rounded-full">
+                <span className="absolute text-4xl" style={{top:"35%", left:"40%"}}>4</span>
+              </div>
               <div className="border-2 p-4 rounded-lg mt-4 border-indigo-600 bg-indigo-600/10">
                 <h2 className="font-semibold text-xl text-center mb-4">Trabajo en equipo</h2>
                 <p className="text-sm lg:text-md border-t-2 w-52 border-indigo-600 pt-4">
@@ -138,11 +134,10 @@ const Values = () => {
                   restDelta: 0.001
               }
             }}
-            className="flex flex-col items-center mx-8">
-              <figure className="relative">
-                <img src="/megatech/assets/empathy.png" alt="Empatía" className="h-52 w-52"/>
-                <span className="absolute text-4xl" style={{top:"35%", left:"45%"}}>5</span>
-              </figure>
+            className="flex flex-col items-center mx-8 contrast-50 hover:contrast-100 transition transition-duration-300">
+              <div className="relative w-36 h-36 border-8 border-blue-300 rounded-full">
+                <span className="absolute text-4xl" style={{top:"35%", left:"40%"}}>5</span>
+              </div>
               <div className="border-2 p-4 rounded-lg mt-4 border-blue-300 bg-blue-300/10">
                 <h2 className="font-semibold text-xl text-center mb-4">Empat&iacute;a</h2>
                 <p className="text-sm lg:text-md border-t-2 w-52 border-blue-300 pt-4">
