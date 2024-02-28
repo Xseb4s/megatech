@@ -5,12 +5,12 @@ const Contact = () => {
 
     }
   return (
-    <section className="custom-bg-contact relative lg:h-[100vh] xl:h-[70vh] text-white" id="contacto">
+    <section className="custom-bg-contact relative lg:h-[100vh] xl:h-[75vh] text-white" id="contacto">
         <article className="py-24 lg:mx-10 xl:mx-36 flex">
             <div className="flex flex-col gap-4 justify-center relative pl-4 max-sm:p-4 max-sm:w-[100vw]">
                 <div className="flex flex-col gap-3 text-center mb-10">
                     <h2 className="text-4xl lg:text-6xl">
-                    Contactanos 
+                    Contáctanos 
                     </h2>
                     <span>Haz parte de la magia</span>
                 </div>
