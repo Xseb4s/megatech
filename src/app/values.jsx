@@ -6,8 +6,8 @@ const Values = () => {
     <>
     <div id="valores" className="mb-40"/>
     
-    <section  className="bg-black text-white">
-      <div className="my-24 lg:pb-10 lg:mx-10 xl:mx-36">
+    <section  className="text-white custom-bg-img">
+      <div className="mt-24 lg:pb-10 lg:mx-10 xl:mx-36">
         <Text>
           <h1 className="text-4xl lg:text-8xl text-center pt-10 mb-20">Valores</h1>
         </Text>

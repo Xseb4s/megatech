@@ -1,5 +1,9 @@
 import Text from "@/components/text"
 import {motion} from "framer-motion"
+import { FaClipboardCheck } from "react-icons/fa";
+import { GiStairsGoal } from "react-icons/gi";
+import { IoMdWarning } from "react-icons/io";
+import { PiUsersThreeFill } from "react-icons/pi";
 
 const Policies = () => {
   return (
@@ -20,7 +24,7 @@ const Policies = () => {
                 ease: [0, 0.71, 0.2, 1.01]
                 }}
             >
-                <h2 className="text-xl font-semibold pb-3">Política de Calidad:</h2>
+                <h2 className="text-xl font-semibold pb-3 flex items-center"> <FaClipboardCheck className="w-5 text-green-700 mr-4"/> Política de Calidad:</h2>
                 
                 <motion.p 
                     initial={{ opacity: 0, scale: 0.5 }}
@@ -45,7 +49,7 @@ const Policies = () => {
                 ease: [0, 0.71, 0.2, 1.01]
                 }}
             >
-                <h2 className="text-xl font-semibold pb-3">Objetivos:</h2>
+                <h2 className="text-xl font-semibold pb-3 flex items-center"> <GiStairsGoal className="w-5 text-red-500 mr-4"/> Objetivos:</h2>
                 <motion.ul initial={{ opacity: 0, scale: 0.5 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
@@ -68,7 +72,7 @@ const Policies = () => {
                 delay: 0.3,
                 ease: [0, 0.71, 0.2, 1.01]
                 }}>
-                <h2 className="text-xl font-semibold pb-3">Importante:</h2>
+                <h2 className="text-xl font-semibold pb-3 flex items-center"> <IoMdWarning className="w-5 text-yellow-400 mr-4"/> Importante:</h2>
                 <motion.p initial={{ opacity: 0, scale: 0.5 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
@@ -90,7 +94,7 @@ const Policies = () => {
                 ease: [0, 0.71, 0.2, 1.01]
                 }}
             >
-                <h2 className="text-xl font-semibold pb-3">Política de tratamiento de datos:</h2>
+                <h2 className="text-xl font-semibold pb-3 flex items-center"> <PiUsersThreeFill className="w-5 text-indigo-500 mr-4"/>Política de tratamiento de datos:</h2>
                 <motion.div initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}

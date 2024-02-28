@@ -32,7 +32,7 @@ const List = ({title, desc}) => {
           clipPath: isOpen ? "inset(10% 0% 0% round 10px)" : "inset(10% 50% 90% 50% round 10px)",
         }}
       >
-        <motion.li className="italic text-gray-700">
+        <motion.li className="italic text-gray-700 bg-blue-300/10">
           {desc}
         </motion.li>
       </ul>

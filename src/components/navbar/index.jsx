@@ -13,7 +13,7 @@ const Navbar = () => {
         if (isOpen) {
             ulControls.start({ y: "20px" });
         } else {
-            ulControls.start({ y: "-300px" });
+            ulControls.start({ y: "-350px" });
         }
     }, [isOpen, ulControls]);
 
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <FaBars className="text-white w-10 h-10 relative z-50 pr-5 sm:hidden" onClick={() => setIsOpen(!isOpen)}/>
                 <motion.ul
                     className="absolute backdrop-blur-md right-0 top-12 bg-black/50 rounded-lg p-2 border text-white gap-3 flex flex-col z-50"
-                    initial={{ y: "-300px" }}
+                    initial={{ y: "-350px" }}
                     animate={ulControls}
                 >
                     {list()}

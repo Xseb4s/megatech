@@ -141,7 +141,7 @@ const We = () => {
                 transition={{
                     duration: 0.3,
                     delay: 0.2,
-                }} className="w-full lg:w-1/2 p-4 lg:p-10 flex max-sm:flex-col justify-center items-center border rounded-3xl">
+                }} className="w-full lg:w-1/2 p-4 lg:p-10 flex max-sm:flex-col justify-center items-center border rounded-3xl hover:shadow-lg transition transition-duration-300">
                     <GoGoal className="max-sm:w-1/4 max-sm:pb-4 lg:w-1/2 xl:w-1/4 h-auto text-red-600"/>
                     <div className="flex flex-col text-start lg:pl-10">
                         <h2 className="text-xl font-semibold max-sm:text-center">Misión</h2>
@@ -156,7 +156,7 @@ const We = () => {
                 transition={{
                     duration: 0.3,
                     delay: 0.4,
-                }} className="w-full lg:w-1/2 p-4 lg:p-10 flex max-sm:flex-col justify-center items-center border rounded-3xl">
+                }} className="w-full lg:w-1/2 p-4 lg:p-10 flex max-sm:flex-col justify-center items-center border rounded-3xl hover:shadow-lg transition transition-duration-300">
                     <HiOutlineLightBulb className="max-sm:w-1/4 max-sm:pb-4 lg:w-full xl:w-1/2 h-auto text-yellow-500"/>
                     <div className="flex flex-col text-start lg:pl-10">
                         <h2 className="text-xl font-semibold max-sm:text-center">Visión</h2>

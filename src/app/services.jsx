@@ -27,7 +27,7 @@ const Services = () => {
                         restDelta: 0.001
                     }
                 }} 
-                className="flex flex-col p-5 lg:ml-5 border rounded-lg max-sm:text-sm gap-2">
+                className="flex flex-col p-5 lg:ml-5 border rounded-lg max-sm:text-sm gap-2 hover:shadow-lg transition transition-duration-300">
                   <li>Portal web disponible 24/7.</li>
                   <li>Acceso desde cualquier lugar del mundo.</li>
                   <li>Información con respaldo de seguridad en la nube.</li>
@@ -57,7 +57,7 @@ const Services = () => {
                       restDelta: 0.001
                   }
                 }} 
-                className=" flex flex-col p-5 lg:ml-5 border rounded-lg max-sm:text-sm gap-2">
+                className=" flex flex-col p-5 lg:ml-5 border rounded-lg max-sm:text-sm gap-2 hover:shadow-lg transition transition-duration-300">
                   <li>Cierres de Caja (diaria, semanal o mensual).</li>
                   <li>Creación de usuarios alternos para uso interno.</li>
                   <li>Retiros masivos.</li>

@@ -11,7 +11,7 @@ const Faq = () => {
   }
   return (
     <>
-    <div id="faq" className="mb-40"/>
+      <div id="faq" className="mb-40"/>
       <section >
         <Text>
           <h1 className="text-4xl lg:text-8xl text-center">Preguntas frecuentes</h1>
@@ -25,8 +25,13 @@ const Faq = () => {
           delay: 0,
           ease: [0, 0.71, 0.2, 1.01]
         }}
-        className="max-sm:px-4 lg:mx-10 xl:mx-36 my-24 p-2 flex flex-col gap-5 lg:w-1/2">
-          {list()}
+        className="max-sm:px-4 lg:mx-10 xl:mx-36 my-24 p-2 flex max-sm:flex-col-reverse justify-between ">
+          <div className="flex flex-col lg:w-1/2">
+            {list()}
+          </div>
+          <figure>
+            <img src="/megatech/asking.webp" alt="Pregunta" />
+          </figure>
         </motion.article>
       </section>
     </>
