@@ -7,12 +7,12 @@ const Values = () => {
     <div id="valores" className="mb-40"/>
     
     <section  className="text-white custom-bg-img">
-      <div className="mt-24 lg:pb-10 lg:mx-10 xl:mx-36">
+      <div className="mt-24 lg:pb-10 ">
         <Text>
           <h1 className="text-4xl lg:text-8xl text-center pt-10 mb-20">Valores</h1>
         </Text>
         <article className="max-sm:pb-12">
-          <div className="grid gap-8 p-4" style={{gridTemplateColumns:'repeat(auto-fit, minmax(270px, 1fr))'}}>
+          <div className="grid gap-8 p-4 grid-values">
             <motion.div
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}

@@ -13,7 +13,7 @@ const Policies = () => {
         <Text>
             <h1 className="text-center text-4xl lg:text-8xl mt-20">Políticas</h1>
         </Text>
-        <div className="max-sm:px-4 lg:mx-10 xl:mx-36 my-24 flex flex-col gap-8">
+        <div className="sm:px-10 md:px-4 lg:mx-10 xl:mx-36 my-24 flex flex-col gap-8">
             <motion.div 
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -72,7 +72,7 @@ const Policies = () => {
                 delay: 0.3,
                 ease: [0, 0.71, 0.2, 1.01]
                 }}>
-                <h2 className="text-xl font-semibold pb-3 flex items-center"> <IoMdWarning className="w-5 text-yellow-400 mr-4"/> Importante:</h2>
+                <h2 className="text-xl font-semibold pb-3 flex items-center"><IoMdWarning className="w-5 text-yellow-400 mr-4"/>Importante:</h2>
                 <motion.p initial={{ opacity: 0, scale: 0.5 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}

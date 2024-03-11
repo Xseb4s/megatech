@@ -25,7 +25,7 @@ const Faq = () => {
           delay: 0,
           ease: [0, 0.71, 0.2, 1.01]
         }}
-        className="max-sm:px-4 lg:mx-10 xl:mx-36 my-24 p-2 flex max-sm:flex-col-reverse justify-between ">
+        className="sm:px-10 md:px-4 lg:mx-10 xl:mx-36 my-24 p-2 flex max-sm:flex-col-reverse justify-between ">
           <div className="flex flex-col lg:w-1/2">
             {list()}
           </div>
