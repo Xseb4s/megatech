@@ -13,7 +13,7 @@ const Navbar = () => {
         if (isOpen) {
             ulControls.start({ y: "20px" });
         } else {
-            ulControls.start({ y: "-350px" });
+            ulControls.start({ y: "-400px" });
         }
     }, [isOpen, ulControls]);
 
@@ -33,7 +33,7 @@ const Navbar = () => {
     }
 
     return (
-        <header>
+        <header >
             <nav className="flex items-center justify-between fixed z-30 backdrop-blur-sm bg-black/40 w-full">
                 <a href="https://www.megatechgrup.com/login" target="_blank" aria-label="Este link te lleva a la pagina">
                     <figure className="pl-5 p-3 flex items-center">
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <FaBars className="text-white w-10 h-10 relative z-50 pr-5 sm:hidden" onClick={() => setIsOpen(!isOpen)}/>
                 <motion.ul
                     className="absolute backdrop-blur-md right-0 top-12 bg-black/50 rounded-lg p-2 border text-white gap-3 flex flex-col z-50"
-                    initial={{ y: "-350px" }}
+                    initial={{ y: "-400px" }}
                     animate={ulControls}
                 >
                     {list()}

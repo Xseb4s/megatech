@@ -39,7 +39,7 @@ export const Testimonial = () => {
   React.useEffect(() => {
     const handleResize = () => {
       const windowWidth = window.innerWidth;
-      if (windowWidth <= 460) {
+      if (windowWidth <= 768) {
         setHiddeArrows(true);
       } else {
         setHiddeArrows(false);
@@ -73,7 +73,7 @@ export const Testimonial = () => {
         }} className="w-full flex flex-col justify-center items-center my-20 lg:my-36 xl:my-36 h-[650px] " >
         <h2 className="text-center font-semibold text-4xl lg:text-3xl xl:text-7xl mb-16 sm:mb-24">Testimonios</h2>
             <AnimatePresence initial={false} custom={direction}>
-                <div className="flex flex-col items-center h-full w-full lg:w-[450px] px-2">
+                <div className="flex flex-col items-center h-full w-full lg:w-[450px] px-5">
                     <motion.figure
                         key={page}
                         custom={direction}
