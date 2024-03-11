@@ -98,7 +98,7 @@ const We = () => {
                     restDelta: 0.001
                 }
             }}
-            className="flex flex-col-reverse max-lg:items-center lg:flex-row sm:mb-10 md:my-10 xl:my-36 justify-center gap-20"
+            className="flex flex-col-reverse max-lg:items-center lg:flex-row mb-10 md:my-10 xl:my-36 justify-center gap-20"
             >
                 <figure className="img-size">
                     <img src="/megatech/technology.webp" alt="Tecnología" className="h-full w-full rounded-3xl object-cover" style={{ objectPosition: '90% 20%' }} />
