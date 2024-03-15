@@ -6,7 +6,7 @@ const Slogan = () => {
         <article className="h-fit lg:px-20">
             <Text>
                 <blockquote className="text-2xl md:px-10 lg:text-6xl text-center">
-                    <span className="spacebold text-4xl md:text-8xl inline-block w-full mb-10">MEGA<span className="text-gray-400">TECH</span></span>donde la innovación y la tecnología se unen para hacer ¡magia digital!
+                    <span className="spacebold text-4xl md:text-8xl inline-block w-full mb-10">MEGA<span className="text-gray-400">TECH</span></span>Donde la innovación y la tecnología se unen para hacer ¡magia digital!
                 </blockquote>
             </Text>
         </article>
