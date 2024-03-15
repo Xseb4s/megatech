@@ -18,14 +18,14 @@ const Values = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{
-              duration: 0.5,
-              delay:0.2,
+              duration: 0.2,
+              delay:0.1,
               ease: [0, 0.71, 0.2, 1.01],
               scale: {
                   type: "spring",
                   damping: 10,
                   stiffness: 100,
-                  restDelta: 0.001
+                  restDelta: 1
                 }
               }}
             className="flex flex-col items-center mx-8 contrast-50 hover:contrast-100 transition transition-duration-300">
@@ -43,14 +43,14 @@ const Values = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{
-              duration: 0.5,
-              delay:0.3,
+              duration: 0.2,
+              delay:0.2,
               ease: [0, 0.71, 0.2, 1.01],
               scale: {
                   type: "spring",
                   damping: 10,
                   stiffness: 100,
-                  restDelta: 0.001
+                  restDelta: 1
                 }
               }}
             className="flex flex-col items-center mx-8 contrast-50 hover:contrast-100 transition transition-duration-300">
@@ -70,14 +70,14 @@ const Values = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{
-              duration: 0.5,
-              delay:0.4,
+              duration: 0.2,
+              delay:0.3,
               ease: [0, 0.71, 0.2, 1.01],
               scale: {
                   type: "spring",
                   damping: 10,
                   stiffness: 100,
-                  restDelta: 0.001
+                  restDelta: 1
                 }
               }}
             className="flex flex-col items-center mx-8 contrast-50 hover:contrast-100 transition transition-duration-300">
@@ -97,14 +97,14 @@ const Values = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{
-              duration: 0.5,
-              delay:0.5,
+              duration: 0.2,
+              delay:0.4,
               ease: [0, 0.71, 0.2, 1.01],
               scale: {
                   type: "spring",
                   damping: 10,
                   stiffness: 100,
-                  restDelta: 0.001
+                  restDelta: 1
                 }
               }}
             className="flex flex-col items-center mx-8 contrast-50 hover:contrast-100 transition transition-duration-300">
@@ -124,14 +124,14 @@ const Values = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{
-              duration: 0.5,
-              delay:0.6,
-              ease: [0, 0.71, 0.2, 1.01],
+              duration: 0.2,
+              delay:0.5,
+              ease: [0, 0.71, 0.2, 1],
               scale: {
                   type: "spring",
                   damping: 10,
                   stiffness: 100,
-                  restDelta: 0.001
+                  restDelta: 1
               }
             }}
             className="flex flex-col items-center mx-8 contrast-50 hover:contrast-100 transition transition-duration-300">

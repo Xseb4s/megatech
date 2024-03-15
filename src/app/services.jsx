@@ -1,5 +1,4 @@
 import Text from "@/components/text";
-import {motion} from "framer-motion";
 
 const Services = () => {
   return (
@@ -12,22 +11,8 @@ const Services = () => {
         </Text>
           <article className="px-5">
             <ul className="grid gap-8 p-4 list-inside list-disc" style={{gridTemplateColumns:'repeat(auto-fit, minmax(200px, 1fr))'}}>
-                <motion.div 
-                    initial={{ opacity: 0, scale: 0.5 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{
-                    duration: 0.5,
-                    delay:0.1,
-                    ease: [0, 0.71, 0.2, 1.01],
-                    scale: {
-                        type: "spring",
-                        damping: 10,
-                        stiffness: 100,
-                        restDelta: 0.001
-                    }
-                }} 
-                className="flex flex-col p-5 lg:ml-5 border rounded-lg max-sm:text-sm gap-2 hover:shadow-lg transition transition-duration-300">
+            <div
+                className="flex flex-col p-5 lg:ml-5 border-2 max-sm:text-sm gap-2 service-box bg-white rounded-xl">
                   <li>Portal web disponible 24/7.</li>
                   <li>Acceso desde cualquier lugar del mundo.</li>
                   <li>Información con respaldo de seguridad en la nube.</li>
@@ -40,24 +25,10 @@ const Services = () => {
                   <li>Recibos de caja para nuevas afiliaciones.</li>
                   <li>Notificación de pagos pendientes por efectuar.</li>
                   <li>Notificación de planillas pendientes por cerrar.</li>
-                </motion.div>
+                </div>
               
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{
-                  duration: 0.5,
-                  delay:0.3,
-                  ease: [0, 0.71, 0.2, 1.01],
-                  scale: {
-                      type: "spring",
-                      damping: 10,
-                      stiffness: 100,
-                      restDelta: 0.001
-                  }
-                }} 
-                className=" flex flex-col p-5 lg:ml-5 border rounded-lg max-sm:text-sm gap-2 hover:shadow-lg transition transition-duration-300">
+                <div
+                className=" flex flex-col p-5 lg:ml-5 border-2  max-sm:text-sm gap-2 service-box bg-white rounded-xl">
                   <li>Cierres de Caja (diaria, semanal o mensual).</li>
                   <li>Creación de usuarios alternos para uso interno.</li>
                   <li>Retiros masivos.</li>
@@ -70,11 +41,11 @@ const Services = () => {
                   <li>Creación de planillas según las diferentes necesidades.</li>
                   <li>Un software personalizado para su organización.</li>
                   <li>Reduce tiempos y costos.</li>
-                </motion.div>
+                </div>
                                    
             </ul>
             <Text> 
-                <h2 className="w-full text-lg mb-5 text-gray-500">Condiciones</h2>
+                <h2 className="w-full text-lg mb-5 mt-10 text-gray-500">Condiciones</h2>
                 <ul className="list-decimal w-full text-xs text-gray-400 list-inside">
                   <li>Valores sujetos a cambios según actualizaciones.</li>
                   <li>Cambios en la modalidad de planillas por actualizaciones de los operadores.</li>
